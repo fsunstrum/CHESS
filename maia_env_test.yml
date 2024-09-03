@@ -1,0 +1,20 @@
+name: maia
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pytorch
+  - torchvision
+  - tensorflow
+  - jupyter
+  - scikit-learn
+  - numpy
+  - matplotlib
+  - pandas
+  - seaborn
+  - pip
+  - pip:
+    - tensorboardx==2.0
+    - python-chess==0.30.1
